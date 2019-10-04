@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM armhf/ubuntu:latest
 
 RUN apt-get update -q && \
     apt-get install certbot -qy && \
